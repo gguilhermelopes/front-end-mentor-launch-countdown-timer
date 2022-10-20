@@ -6,7 +6,7 @@ const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
 const second = document.querySelector(".second");
 
-setInterval(() => {
+function intervalCountdown() {
   const dayString = String(launchCountdown.total.days).padStart(2, 0);
   const hourString = String(launchCountdown.total.hours).padStart(2, 0);
   const minuteString = String(launchCountdown.total.minutes).padStart(2, 0);
@@ -15,4 +15,10 @@ setInterval(() => {
   hour.innerText = hourString;
   minute.innerText = minuteString;
   second.innerText = secondString;
+}
+
+setInterval(() => {
+  intervalCountdown();
 }, 1000);
+
+intervalCountdown();
