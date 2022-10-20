@@ -148,7 +148,8 @@ img {
     border-radius: 5px;
   }
   .time-stamp p {
-    font-size: 0.3rem;
+    font-size: 0.275rem;
+    letter-spacing: 4px;
   }
   .footer {
     background-position: bottom right;
