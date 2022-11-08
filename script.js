@@ -1,6 +1,6 @@
 import Countdown from "./countdown.js";
 
-const launchCountdown = new Countdown("07 November 2022");
+const launchCountdown = new Countdown("07 November 2023");
 const day = document.querySelector(".day");
 const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
